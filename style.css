@@ -35,6 +35,7 @@ a { text-decoration: none; margin: 0; padding: 0; color: black; }
         z-index: 20;
     }
 }
+.center { display: flex; align-items: center; justify-content: center; }
 
 nav {
     background-color: var(--dark-grey);
@@ -258,13 +259,4 @@ button:hover .circle .icon.arrow {
 }
 button:hover .button-text {
     color: #fff;
-}
-
-
-.timeline {
-    padding: 2rem;
-}
-.timeline h1 {
-    font-family: var(--TW-Cen-MT);
-    font-size: 3rem;
 }
